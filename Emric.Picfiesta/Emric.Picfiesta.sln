@@ -3,8 +3,42 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApp", "WebApp", "{2888871E-E024-4DC1-9814-5F509A759CEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{9F1631AF-463C-4469-A992-D652B27CD5B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{05433D4D-1DCF-4736-B94B-DF3B6EA1EF72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{A5077C87-4FF2-4025-B2D4-E3A8BDAE3CD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F5E3A980-32F7-4750-9C8F-DFBCF2B617B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{3B87B1D8-7C68-42D1-BF5F-164CB9A7B440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emric.Picfiesta.Repository", "Emric.Picfiesta.Repository\Emric.Picfiesta.Repository.csproj", "{BD932E55-B769-4B83-A4BB-B1432D08E408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emric.Picfiesta.Repository.Interfaces", "Emric.Picfiesta.Repository.Interfaces\Emric.Picfiesta.Repository.Interfaces.csproj", "{BF54E24A-EC02-4662-87CC-48867EB6387F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD932E55-B769-4B83-A4BB-B1432D08E408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD932E55-B769-4B83-A4BB-B1432D08E408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD932E55-B769-4B83-A4BB-B1432D08E408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD932E55-B769-4B83-A4BB-B1432D08E408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF54E24A-EC02-4662-87CC-48867EB6387F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF54E24A-EC02-4662-87CC-48867EB6387F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF54E24A-EC02-4662-87CC-48867EB6387F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF54E24A-EC02-4662-87CC-48867EB6387F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD932E55-B769-4B83-A4BB-B1432D08E408} = {3B87B1D8-7C68-42D1-BF5F-164CB9A7B440}
+		{BF54E24A-EC02-4662-87CC-48867EB6387F} = {3B87B1D8-7C68-42D1-BF5F-164CB9A7B440}
 	EndGlobalSection
 EndGlobal
